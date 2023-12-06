@@ -101,7 +101,5 @@ The expected result is the selected card to be displayed into the Webex Room
 
 Go to the next chapter in order to see an example of an advanced Alert Adaptative Card.
 
-[]{}
+[webex_for_xdr_part-2_alert_cards_examples](https://github.com/pcardotatgit/webex_for_xdr_part-2_alert_cards_examples)
 
-Go to the previous chapter 
-[]{}
