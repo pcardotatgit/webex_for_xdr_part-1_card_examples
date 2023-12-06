@@ -1,0 +1,134 @@
+[
+        {
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "content": {
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                "type": "AdaptiveCard",
+                "version": "1.0",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "size": "Medium",
+                        "weight": "Bolder",
+                        "text": "API Emulators as an emerging Best Practice"
+                    },
+                    {
+                        "type": "ColumnSet",
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "items": [
+                                    {
+                                        "type": "Image",
+                                        "style": "Person",
+                                        "url": "https://www.getpostman.com/img/pages/post-con-2019/_post-con-speakers/steve-sfartz.jpg",
+                                        "size": "Small"
+                                    }
+                                ],
+                                "width": "auto"
+                            },
+                            {
+                                "type": "Column",
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "weight": "Bolder",
+                                        "text": "Stève Sfartz",
+                                        "wrap": true
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "spacing": "None",
+                                        "text": "API Architect at Cisco DevNet",
+                                        "isSubtle": true,
+                                        "wrap": true
+                                    }
+                                ],
+                                "width": "stretch"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "Modern applications are highly distributed. We face challenges related to the use of internal and external APIs and how to build APIs with agility in the face of software that can evolve and change at any time. The API industry proposes two common strategies to circumvent these challenges: API Mocking and Service Virtualization. At Cisco, we came up with the idea of API emulators has a third strategy.\nIn this talk, I'll explain the motivation behind API emulators in the perspective of DevOps, CI/CD, Software Development, and serverless/microservices architectures.",
+                        "wrap": true
+                    },
+                    {
+                        "type": "FactSet",
+                        "facts": [
+                            {
+                                "title": "Track:",
+                                "value": "Design and Architecture"
+                            },
+                            {
+                                "title": "When:",
+                                "value": "Thursday, 11:45AM"
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "Action.ShowCard",
+                        "title": "Take survey",
+                        "card": {
+                            "type": "AdaptiveCard",
+                            "body": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "What are you familiar with?"
+                                },
+                                {
+                                    "type": "Input.ChoiceSet",
+                                    "id": "survey",
+                                    "isMultiSelect": true,
+                                    "value": "1",
+                                    "choices": [
+                                        {
+                                            "title": "API Mocks",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "title": "API Emulators",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "title": "Service Virtualization",
+                                            "value": "3"
+                                        }
+                                    ]
+                                },
+
+                                {
+                                    "type": "Input.Text",
+                                    "placeholder": "enter comment",
+                                    "style": "text",
+                                    "maxLength": 0,
+                                    "id": "comment"
+                                }
+                            ],
+                            "actions": [
+                                {
+                                    "type": "Action.Submit",
+                                    "title": "send",
+                                    "data": {
+                                        "id": "POST/CON 2019"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Action.OpenUrl",
+                        "title": "Check jobs",
+                        "url": "https://jobs.cisco.com/jobs/SearchJobs/DevNet?3_109_3=%5B%22169482%22%5D&3_143_3=%5B%2212229389%22%5D"
+                    },
+                    {
+                        "type": "Action.OpenUrl",
+                        "title": "Join DevNet",
+                        "url": "https://developer.cisco.com/appdev/"
+                    }
+                ]
+            }
+        }
+    ]
