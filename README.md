@@ -30,7 +30,7 @@ And here under for those of you who are familiar with Github.
 
 You must have a git client installed into your laptop. Then you can type the following command from a terminal console opened into your working directory.
 
-    git clone https://github.com/pcardotatgit/lab_simulator-001.git
+    git clone https://github.com/pcardotatgit/webex_for_xdr_part-1_card_examples.git
 
 ## Step 3. Go to the code subfolder
 
