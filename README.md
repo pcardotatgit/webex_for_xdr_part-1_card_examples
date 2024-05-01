@@ -1,6 +1,9 @@
 # Select and Send advanced Webex cards
 
-This script allows you to select and send to a Webex room one example of an advanced webex cards located into the [**cards_attachements_examples**] subfolder
+Webex can be used to host a Web App which exposes a nice User Interface ( nice formulars ). 
+For acheiving this we have to send Adaptive cards to the Webex Room.
+
+The script into this repo gives you some examples of such formulars.  It allows you to select and send to a Webex room one example of an advanced webex cards located into the [**cards_attachements_examples**] subfolder
 
 The file contained into this subfloder are only the **attachment** key of the Webex Card JSON data to be sent the the webex room. This key contains the body that is dispplayed into the message.
 
